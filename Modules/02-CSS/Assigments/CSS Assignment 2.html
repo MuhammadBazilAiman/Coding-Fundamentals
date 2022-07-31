@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Assignment 2</title>
+    <style>
+      .breadcrumb {
+        background-color: lightgray;
+        padding: 10px;
+        list-style: none;
+        border: 1px solid black;
+        border-radius: 15px;
+      }
+
+      .breadcrumb li {
+        display: inline;
+      }
+
+      .breadcrumb li a {
+        color: blue;
+      }
+
+      q::before {
+        content: "/";
+        color: black;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <q></q>
+        <li><a href="#">Users</a></li>
+        <q></q>
+        <li><a href="#">Bazil Aiman</a></li>
+        <q></q>
+        <li>Info</li>
+      </ul>
+    </div>
+  </body>
+</html>
