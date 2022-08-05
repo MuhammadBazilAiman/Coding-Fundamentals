@@ -1,0 +1,100 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+}
+
+.navlinks {
+  display: flex;
+}
+
+.nav-item {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+li a:hover {
+  background-color: lightgrey;
+}
+
+.active {
+  background-color: lightgreen;
+}
+
+/* Contact Card */
+h3 {
+  color: lightgrey;
+  font-weight: lighter;
+}
+
+h1,
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h4,
+p {
+  margin: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+input[type="tel"] {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  /* allign the element in the middle of the parent element vertically (?) */
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+  cursor: pointer;
+}
