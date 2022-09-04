@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  border: 1px solid black;
+  height: 170px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
+    Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.input {
+  border-radius: 5px;
+  /* border-color: lightseagreen; */
+}
+
+img {
+  border-radius: 50%;
+  height: 150px;
+  margin-right: 100px;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
